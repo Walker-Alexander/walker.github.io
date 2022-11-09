@@ -1,0 +1,133 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 196, 92);
+}
+
+#about p {
+    font-size: large;
+    width: 20em;
+    margin: 0 auto;
+    border: 2px black solid;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 5px 5px;
+}
+
+h7 {
+    background-color: #a905a9;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h1 {
+    margin: 1%;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+#top-bar-about {
+    display: table;
+    margin: 0 auto;
+    top: 0;
+    text-align: center; 
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(191, 97, 97);
+    border: 3px dotted black;
+}
+
+#top-bar-about a{
+    position: absolute;
+    right: 10px;
+}
+
+#top-bar-about h1{
+    text-shadow: 3px 3px black;
+    color: rgb(148, 35, 35);
+}
+
+
+#top-bar {
+    display: table;
+    margin: 0 auto;
+    top: 0;
+    text-align: center; 
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(191, 97, 97);
+    border: 3px dotted black;
+}
+
+#top-bar a{
+    position: absolute;
+    right: 10px;
+}
+
+#top-bar h1{
+    text-shadow: 3px 3px black;
+    color: rgb(148, 35, 35);
+}
+
+#top-bar a:visited{
+    color: blue;
+}
+
+#items .section {
+    margin-left: 5em;
+    margin-right: 5em;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 325px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+#items .section::-webkit-scrollbar {
+    width: 12px;
+}
+#items .section::-webkit-scrollbar-track {
+   background: lightgray;
+   border-radius: 7px;
+}
+#items .section::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 20px;
+    border: 3px solid rgb(163, 106, 0);
+}
+
+#items {
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+#items .section button {
+    text-align: center;
+    margin: 15px;
+    background-color: whitesmoke;
+    border-radius: 2%;
+    border: 2px solid black;
+
+}
+
+#items .section button:hover {
+    background-color: lightgray;
+    border-width: 3px;
+}
+
+#items .section button:active {
+    background-color: darkgray;
+}
